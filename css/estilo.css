@@ -23,7 +23,7 @@
   position: fixed;
   top: 20px;
   left: 40px;
-  z-index: 3;
+  z-index: 4;
 }
 .buttom-active .bar {
   background-color: white;
@@ -55,7 +55,8 @@
   top: 0;
   transition: .3s;
   left: 0;
-  z-index: 2;
+  z-index: 3;
+  position: fixed;
   padding-top: 130px;
   height: 100vh;
   background-color: orange;
@@ -151,7 +152,23 @@
   -o-transform:translateY(0px);
   transform:translateY(0px);
 }
+/*inicio do conteudo*/
+.inicio{
+  height: 100vh;
+  z-index: 2;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.cont-inicio{
+  height: auto;
 
+}
+/*fim do conteudo1*/
+/*fim do contudo total*/
 @media screen and (max-width: 380px){
   .menu{
     width:100%;
@@ -160,7 +177,7 @@
     top: 0;
     transition: .3s;
     left: 0;
-    z-index: 2;
+    z-index: 3;
     height: 100vh;
     background-color: orange;
   }
