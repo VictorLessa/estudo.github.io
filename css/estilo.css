@@ -75,7 +75,7 @@
 }
 .menu-list{
   width: 200px;
-  position: relative;
+  position: fixed;
   top: 41%;
   list-style: none;
   text-align: center;
