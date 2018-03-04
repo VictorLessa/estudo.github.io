@@ -152,7 +152,7 @@
   transform:translateY(0px);
 }
 
-@media (max-width: 380px){
+@media screen (max-width: 380px){
   .menu{
     width:100%;
     transform: translate3d(-100%,0,0);
