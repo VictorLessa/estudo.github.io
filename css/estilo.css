@@ -217,7 +217,9 @@
   }
   .cont-inicio{
     background-color: blue;
-
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
   }
   /*fim do conteudo1*/
   /*fim do contudo total*/
