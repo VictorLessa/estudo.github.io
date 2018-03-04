@@ -58,7 +58,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
   z-index: 3;
   position: fixed;
   height: 100vh;
@@ -77,6 +76,7 @@
 .menu-list{
   width: 200px;
   position: relative;
+  top: 41%;
   list-style: none;
   text-align: center;
   padding: 0;
@@ -177,7 +177,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
     transition: .3s;
     left: 0;
     z-index: 3;
@@ -196,6 +195,7 @@
   }
   .menu-list{
     width:100%;
+    top: 30%;
     position: relative;
     list-style: none;
     text-align: center;
