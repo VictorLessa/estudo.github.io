@@ -169,7 +169,10 @@
 }
 /*fim do conteudo1*/
 /*fim do contudo total*/
-@media screen and (max-width: 380px){
+@media screen and (max-width: 600px){
+  .bar{
+    background-color: blue;
+  }
   .menu{
     width:100%;
     transform: translate3d(-100%,0,0);
