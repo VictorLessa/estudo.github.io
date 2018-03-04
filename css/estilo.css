@@ -169,7 +169,7 @@
 }
 /*fim do conteudo1*/
 /*fim do contudo total*/
-@media screen and (max-width: 600px){
+@media screen and (min-width: 600px){
   .bar{
     background-color: blue;
   }
