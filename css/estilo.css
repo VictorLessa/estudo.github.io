@@ -157,10 +157,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
 }
-.cont-inicio{
-  height: auto;
+.conteudo1{
+  top: 50%;
+  position: absolute;
 
 }
 /*fim do conteudo1*/
@@ -212,16 +212,12 @@
     flex-wrap: wrap;
     background-color: gray;
     justify-content: center;
-    align-content: center;
   }
-  .cont-inicio{
-    align-content: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .contudo1{
 
+  .conteudo1{
+    background-color: red;
+    position: absolute;
+    top: 50%;
   }
   /*fim do conteudo1*/
   /*fim do contudo total*/
