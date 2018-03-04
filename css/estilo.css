@@ -165,7 +165,7 @@
 }
 /*fim do conteudo1*/
 /*fim do contudo total*/
-@media only screen and (max-device-width: 600px){
+@media screen and (max-width: 600px){
   .bar{
     background-color: white;
   }
